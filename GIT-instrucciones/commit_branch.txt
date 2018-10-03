@@ -2,7 +2,7 @@
 andreadiaz@andrea-2: cd projects/GAME/
 
 2do -> hacer update
-andreadiaz@andrea-2:~/projects/GAME$ git pull origin massimo.imparato
+andreadiaz@andrea-2:~/projects/GAME$ git pull origin master
 
 3ro -> fijarte que estas en tu branch
 andreadiaz@andrea-2:~/projects/GAME$ git status
