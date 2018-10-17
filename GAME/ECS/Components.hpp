@@ -1,0 +1,17 @@
+//
+//  Components.hpp
+//  GAME
+//
+//  Created by Andrea Diaz ♡ on 10/17/18.
+//  Copyright © 2018 Andrea Diaz ♡. All rights reserved.
+//
+
+#ifndef Components_hpp
+#define Components_hpp
+
+#include "ECS.hpp"
+#include "TransformComponent.hpp"
+#include "Sprite.hpp"
+
+
+#endif /* Components_hpp */

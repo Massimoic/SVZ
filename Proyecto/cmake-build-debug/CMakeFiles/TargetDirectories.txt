@@ -1,3 +1,0 @@
-/cygdrive/c/Users/massi/OneDrive/Documents/POO 2/Proyecto POO2/Proyecto/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/Users/massi/OneDrive/Documents/POO 2/Proyecto POO2/Proyecto/cmake-build-debug/CMakeFiles/edit_cache.dir
-/cygdrive/c/Users/massi/OneDrive/Documents/POO 2/Proyecto POO2/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir

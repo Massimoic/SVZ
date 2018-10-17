@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="false">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27aaccd9-584b-4fe2-8d36-e6be25d8c272" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/GAME/Game.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GAME/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Diagrama_Poo2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/.idea/Proyecto.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/AnimationController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GAME/AnimationController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/AnimationController.h" beforeDir="false" afterPath="$PROJECT_DIR$/GAME/AnimationController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/Enemy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GAME/Enemy.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/Enemy.h" beforeDir="false" afterPath="$PROJECT_DIR$/GAME/Enemy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GAME/Game.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/Game.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/Player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GAME/Player.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/Player.h" beforeDir="false" afterPath="$PROJECT_DIR$/GAME/Player.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/ScoreManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GAME/ScoreManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/ScoreManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/GAME/ScoreManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/SoundManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GAME/SoundManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/SoundManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/GAME/SoundManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/Weapon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GAME/Weapon.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/Weapon.h" beforeDir="false" afterPath="$PROJECT_DIR$/GAME/Weapon.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeFiles/3.10.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/Proyecto.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personajes/personaje1.psd" beforeDir="false" afterPath="$PROJECT_DIR$/personajes/personaje1.psd" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GAME/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GAME" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GAME" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GAME" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GAME" type="462c0819:PsiDirectoryNode" />
+              <item name="GAME" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27aaccd9-584b-4fe2-8d36-e6be25d8c272" name="Default" comment="" />
+      <created>1539710883731</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539710883731</updated>
+      <workItem from="1539710886052" duration="35000" />
+      <workItem from="1539727762679" duration="30000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="65000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22692037" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Proyecto/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto/main.cpp" />
+    <entry file="file://$PROJECT_DIR$/GAME/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

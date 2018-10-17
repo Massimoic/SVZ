@@ -1,4 +1,0 @@
-C:\Users\massi\.CLion2018.1\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/cygdrive/c/Users/massi/OneDrive/Documents/POO 2/Proyecto POO2/Proyecto"
--- Configuring done
--- Generating done
--- Build files have been written to: /cygdrive/c/Users/massi/OneDrive/Documents/POO 2/Proyecto POO2/Proyecto/cmake-build-debug
