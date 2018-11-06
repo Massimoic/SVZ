@@ -6,12 +6,15 @@
 #define PROYECTO_ANIMATIONCONTROLLER_H
 
 
-class AnimationController {
-    int AnimationState;
-public:
-    AnimationController(int astate);
-    void AnimateAccordingToState();
-
+struct Animation {
+    int index;
+    int speed;
+    
+    Animation(){}
+    Animation(int i, int s) {
+        index = i;
+        speed = s;
+    }
 };
 
 

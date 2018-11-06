@@ -79,7 +79,7 @@ public:
     
     template <typename T>
     bool HasComponent() const {
-        return  component_bit_set[GetComponentTypeID<T>];
+        return component_bit_set[GetComponentTypeID<T>()];
     }
     
     template <typename T, typename... TArgs>
@@ -131,12 +131,14 @@ public:
         std::end(entities));
     }
     
+    
     Entity& addEntity(){
         Entity* e = new Entity();
         std::unique_ptr<Entity> uPtr{e};
         entities.emplace_back(std::move(uPtr));
         return *e;
     }
+    
     
     };
 

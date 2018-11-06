@@ -13,7 +13,7 @@ int main(int argc, char* args[]) {
     
     game = new Game();
     
-    game -> init("spy vs zombies", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 680, 480, false);
+    game -> init("spy vs zombies", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 680, 480);
     
     while (game -> running()) {
         
@@ -31,6 +31,6 @@ int main(int argc, char* args[]) {
     }
     
     game -> clean();
-    
+    delete game;
     return 0;
 }

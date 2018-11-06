@@ -9,8 +9,6 @@
 #include <SDL2/SDL.h>
 #include <SDL2_image/SDL_image.h>
 #include <iostream>
-#include "Character.h"
-#include "Enemy.h"
 
 class Game {
 protected:
@@ -21,7 +19,7 @@ protected:
 public:
     Game();
     ~Game();
-    void init(const char* title, int x_pos, int y_pos, int width, int height, bool fullscreen); //check 'bool fullscreen' later
+    void init(const char* title, int x_pos, int y_pos, int width, int height);
     
     void events();
     void update(); //here is gonna be all the game objects ex. player and enemies
@@ -36,6 +34,7 @@ public:
     void GameOver();
     
     static SDL_Renderer* renderer;
+    static SDL_Event event;
 };
 
 

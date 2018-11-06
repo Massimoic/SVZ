@@ -12,6 +12,8 @@
 #include "ECS.hpp"
 #include "TransformComponent.hpp"
 #include "Sprite.hpp"
+#include "KeyboardController.hpp"
+#include "ColliderComponent.hpp"
 
 
 #endif /* Components_hpp */

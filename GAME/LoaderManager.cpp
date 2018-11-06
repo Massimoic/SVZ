@@ -19,4 +19,3 @@ SDL_Texture* LoaderManager::LoadTexture(const char* texture) {
 void LoaderManager::Draw(SDL_Texture *tex, SDL_Rect src, SDL_Rect dst) { 
     SDL_RenderCopy(Game::renderer, tex, &src, &dst);
 }
-

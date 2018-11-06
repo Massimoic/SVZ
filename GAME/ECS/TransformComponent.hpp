@@ -9,44 +9,46 @@
 #ifndef Position_hpp
 #define Position_hpp
 #include "Components.hpp"
+#include "../Vector2D.hpp"
 
-class TranformComponent: public Component {
-private:
-    int xpos;
-    int ypos;
-    
+class TransformComponent: public Component {
 public:
-    TranformComponent(){
-        xpos = 0;
-        ypos = 0;
+    Vector2D position;
+    Vector2D velocity;
+    Vector2D change;
+    Vector2D animation;
+    
+    int speed = 3;
+    int width = 67;
+    int height = 95;
+    
+    TransformComponent(){
+        position.x = 0.0f;
+        position.y = 0.0f;
     }
     
-    TranformComponent(int x, int y) {
-        xpos = x;
-        ypos = y;
+    TransformComponent(float x, float y) {
+        position.x = x;
+        position.y = y;
     }
     
-    int x() {return xpos;}
-    void x(int x) { xpos = x;}
-    
-    int y() {return ypos;}
-    void y(int y) { ypos = y;}
+    TransformComponent(float x, float y, int w, int h) {
+        position.x = x;
+        position.y = y;
+        width = w;
+        height = h;
+    }
     
     void init() override {
-        xpos = 0;
-        ypos = 0;
-        
+        velocity.x = 0;
+        velocity.y = 0;
+        change.y = 0;
     }
     
     void update() override {
-        xpos ++;
-        ypos ++;
-    }
-    
-    
-    void setPos (int x, int y) {
-        xpos = x;
-        ypos = y;
+        position.x += velocity.x * speed;
+        position.y += velocity.y * speed;
+        animation.y += change.y * speed;
     }
     
 };
