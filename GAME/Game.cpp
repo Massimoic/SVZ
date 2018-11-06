@@ -45,7 +45,7 @@ void Game::init(const char *title, int x_pos, int y_pos, int width, int height) 
     }
 
     // ------------------- P L A Y E R -------------------
-    spy.add_component<TransformComponent>(0.0f, 295.0f);
+    spy.add_component<TransformComponent>(1.0f, 295.0f);
     spy.add_component<Sprite>("spy.png", true);
     spy.add_component<KeyboardController>();
     spy.add_component<ColliderComponent>("player");

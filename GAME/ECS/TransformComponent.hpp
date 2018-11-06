@@ -15,12 +15,13 @@ class TransformComponent: public Component {
 public:
     Vector2D position;
     Vector2D velocity;
-    Vector2D change;
-    Vector2D animation;
     
     int speed = 3;
     int width = 67;
     int height = 95;
+    float gravity = 0.5f;
+    
+    bool jump = false;
     
     TransformComponent(){
         position.x = 0.0f;
@@ -42,13 +43,14 @@ public:
     void init() override {
         velocity.x = 0;
         velocity.y = 0;
-        change.y = 0;
     }
     
     void update() override {
         position.x += velocity.x * speed;
         position.y += velocity.y * speed;
-        animation.y += change.y * speed;
+        if (jump) {
+            velocity.y += gravity * speed;
+        }
     }
     
 };

@@ -36,12 +36,12 @@ public:
         setTex(path);
     }
     
-    Sprite(const char* path, bool src) {
+    Sprite(const char* path, bool animationStatus) {
         setTex(path);
-        animation = src;
+        animation = animationStatus;
         
         Animation rest = Animation(0, 600);
-        Animation run = Animation(1, 1);
+        Animation run = Animation(1, 200);
         
         animations.emplace("rest", rest);
         animations.emplace("run", run);
@@ -69,7 +69,7 @@ public:
     
     void update() override {
         if (animation) {
-            srcRect.x = (static_cast<int>((SDL_GetTicks()/ 600) % 2)) * srcRect.w;
+            srcRect.x = (static_cast<int>((SDL_GetTicks()/ speed) % 2)) * srcRect.w;
         }
         
         srcRect.y = pos * transform -> height;
