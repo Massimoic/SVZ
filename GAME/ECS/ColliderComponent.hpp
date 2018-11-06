@@ -1,14 +1,14 @@
 //
-//  Vector2D.hpp
+//  ColliderComponent.hpp
 //  GAME
 //
 //  Created by Andrea Diaz ♡ on 11/5/18.
 //  Copyright © 2018 Andrea Diaz ♡. All rights reserved.
 //
 
-#ifndef Vector2D_hpp
-#define Vector2D_hpp
+#ifndef ColliderComponent_hpp
+#define ColliderComponent_hpp
 
 #include <stdio.h>
 
-#endif /* Vector2D_hpp */
+#endif /* ColliderComponent_hpp */
